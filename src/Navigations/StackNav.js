@@ -11,7 +11,7 @@ const StackNav = () => {
   return (
     <Stack.Navigator
       //   screenOptions={{ headerShown: false }}
-      initialRouteName="Notif"
+      initialRouteName="Profile"
     >
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Contact" component={Contact} />
